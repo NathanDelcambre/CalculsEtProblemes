@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 55%;
+  height: 250px;
+  position: relative;
+  background-image: url(https://static.actugaming.net/media/2016/12/PokemonGO.png);
+}
+
+.barre {
+	background-color: black;
+	height: 5px;
+	width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+  /*background-color: rgba(10, 10, 10,0.3);*/
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 100px 20px 10px 10px;
+}
+
+
+nav h2 {
+	color: rgb(0,0,0);
+	margin-left: 350px;
+	font-size: 60;
+	font-stretch: 150%;
+	font-family: Georgia, serif;
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10%;
+	border: solid black;
+}
+
+nav img{
+	height:auto;
+	width: 150;
+	margin-right: 80px;
+	position: relative;
+	bottom: 40px;
+	border: solid black;
+	padding:10px;
+	background-color: rgb(250,240,240);
+}
+
+.calcul{
+	width: 50%;
+	font-size: 50px;
+	font-family: cursive;
+	padding: 15px;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	margin-left: 200px;
+}
+
+.calculs{
+	column-count: 2;
+	margin-bottom: 150px;
+	column-gap: 10px;
+}
+
+.space{
+	height: 30px;
+}
+
+.reponses{
+	margin-left: 300px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	width: 200px;
+	height: 55px;
+	padding:0;
+	color: green;
+	background-color: rgb(225,255,210);
+	padding-bottom: 60px;
+}
+
+input{
+	height: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 50px;
+	color: rgb(20,60,125);
+	width: 117px;
+	border: solid black;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border: none;
+}
+
+
+h3 {
+  padding-top: 5px;
+  color: rgb(130,50,0);
+}
+  
+h2 {
+  padding-top: 5px;
+}
+
+footer{
+	height: 150px;
+	width:100%;
+	background-color: rgb(10,120,50);
+}
+
+footer img{
+	width: auto;
+	height: 120px;
+	vertical-align: center;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer h2{
+	color: white;
+	font-weight: bold;
+	vertical-align: center;
+	position: absolute;
+	left: 10%;
+	top: 1100px;
+}

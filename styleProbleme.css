@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 55%;
+  height: 250px;
+  position: relative;
+  background-image: url(https://static.actugaming.net/media/2016/12/PokemonGO.png);
+}
+
+.barre {
+	background-color: black;
+	height: 5px;
+	width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+  /*background-color: rgba(10, 10, 10,0.3);*/
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 100px 20px 10px 10px;
+}
+
+
+nav h2 {
+	color: rgb(0,0,0);
+	margin-left: 350px;
+	font-size: 60;
+	font-stretch: 150%;
+	font-family: Georgia, serif;
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10%;
+	border: solid black;
+}
+
+nav img{
+	height:auto;
+	width: 150;
+	margin-right: 80px;
+	position: relative;
+	bottom: 40px;
+	border: solid black;
+	padding:10px;
+	background-color: rgb(250,240,240);
+}
+
+.enonce{
+	margin-top: 150px;
+	margin-bottom: 200px;
+	margin-left: 100px;
+}
+
+.fleche1 img{
+	height: auto;
+	width:200px;
+	position: absolute;
+	left: 405px;
+	top: 670px;
+}
+
+.fleche2 img{
+	height: auto;
+	width:200px;
+	position: absolute;
+	left: 910px;
+	top: 670px;
+}
+
+.fleche1p img{
+	height: 300px;
+	width:500px;
+	position: absolute;
+	left: 475px;
+	top: 630px;
+	transform: rotate(335deg);
+}
+
+.fleche2p img{
+	height: 300px;
+	width:500px;
+	position: absolute;
+	left: 475px;
+	top: 830px;
+	transform: rotate(25deg);
+}
+
+figure{
+	margin-top: 40px;
+}
+
+.ajout{
+	margin-top: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.ajout input{
+	border: solid black;
+	text-align: center;
+	height: 300px;
+	width: 300px;
+	font-size:150px;
+}
+
+.caseRes{
+	border-radius: 30%;
+}
+
+.casespe1{
+	position: absolute;
+	top:550px;
+	left: 200px;
+	margin-top: 200px;
+}
+
+.casespe2{
+	position: absolute;
+	left: 980px;
+	top: 550px;
+	border-radius: 30%;
+}
+
+.casespe3{
+	position: absolute;
+	left: 980px;
+	top: 930px;
+	border-radius: 30%;
+}
+
+.reponses{
+	margin-left: 550px;
+	margin-bottom: 100px;
+	margin-top: 150px;
+	width: 200px;
+	height: 55px;
+	padding:0;
+	color: green;
+	background-color: rgb(225,255,210);
+	padding-bottom: 60px;
+	font-size: 50px;
+}
+
+.reponsesp{
+	margin-left: 550px;
+	margin-bottom: 50px;
+	margin-top: 600px;
+	width: 200px;
+	height: 55px;
+	padding:0;
+	color: green;
+	background-color: rgb(225,255,210);
+	padding-bottom: 60px;
+	font-size: 50px;
+}
+
+.moins1{
+	font-size: 70px;
+	position: absolute;
+	left: 615px;
+	bottom: 50px;
+}
+
+.moins2{
+	font-size: 70px;
+	position: absolute;
+	left: 625px;
+	top: 900px;
+}
+
+.plus{
+	font-size: 50px;
+	position: absolute;
+	left: 1095px;
+	top: 835px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border: none;
+}
+
+
+h3 {
+  padding-top: 5px;
+  color: rgb(130,50,0);
+}
+  
+h2 {
+  padding-top: 5px;
+}
+
+footer{
+	height: 150px;
+	width:100%;
+	background-color: rgb(10,120,50);
+}
+
+footer img{
+	width: auto;
+	height: 120px;
+	vertical-align: center;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+footer h2{
+	color: white;
+	font-weight: bold;
+	vertical-align: center;
+	position: absolute;
+	left: 63%;
+	top: 1600px;
+}
