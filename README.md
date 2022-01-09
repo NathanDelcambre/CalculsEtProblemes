@@ -9,7 +9,7 @@ Trois activités disponibles :
   - Résolution de problèmes simples
   
 L'élève a le choix du nombre de calculs qu'il souhaite résoudre.
-La petite maison sur le haut de la page permet de revenir à l'accueil lorsqu'un activité est terminée.
+La petite maison sur le haut de la page permet de revenir à l'accueil lorsqu'une activité est terminée.
 
 Les bornes inférieures et supérieures des calculs sont modifiables dans les fichiers 'calculsSous' et 'calculsPlus' à l'endroit indiqué par les commentaires.
 
